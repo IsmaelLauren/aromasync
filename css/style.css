@@ -1,0 +1,45 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 120px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    justify-content: center;
+    display: flex;
+}
+.header-left{
+    width: 50%;
+    height: 100%;
+    background-color: violet;
+    display: flex;
+    align-items: center;
+}
+.header-right{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(213, 213, 228);
+    display: flex;
+    align-items: center;
+}
+.header-right{
+    
+}
+a .carrinho-compras{
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 50px;
+    margin-left: auto;
+}
+.suporte{
+    width: 75px;
+    
+}
+.carrinho-compras{
+    width: 75px;
+    margin-left: auto;
+}
