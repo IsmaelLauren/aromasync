@@ -3,7 +3,7 @@ html, body{
     margin: 0;
     padding: 0;
 }
-body{
+.body1{
     display: flex;
     flex-direction: column;
 }
@@ -194,4 +194,227 @@ header{
     margin:0 ;
     pad: 0;
     margin-top: 20%;
+}
+ /*header compras*/
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #333;
+}
+
+.header-compras {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo-compras {
+  height: 60px;
+}
+
+.icons img {
+  height: 30px;
+  margin-left: 15px;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.background {
+  width: 100%;
+  height: auto;
+}
+
+.texto-hero {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  color: white;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+}
+
+.troncao {
+  background: #dca96c;
+  padding: 30px;
+  margin-top: 5px;
+  display: inline-block;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  font-size: 1.2em;
+}
+
+.produto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  gap: 10px;
+  height: 700px;
+  max-height: 10;
+ 
+}
+
+.galeria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-left: 5px;
+}
+
+.thumb,
+.central {
+  width: 400px;
+  height: 100px;
+  border: 3px solid #e4e3e3;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.central {
+  height: 350px;
+}
+
+.thumb {
+  height: 400px;
+  margin-top: 1em;
+}
+
+.cls2 {
+  width: 800px;
+  height: 700px;
+  object-fit: cover;
+}
+
+.info {
+  max-width: 800px;
+  font-size: 18px;
+  margin-top: 1200px;
+}
+
+.compra {
+  height: 90px;
+}
+
+.avaliacao span {
+  font-size: 1.2em;
+}
+
+.preco {
+  font-size: 1.5em;
+}
+
+.desconto {
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+
+.off {
+  color: green;
+  margin-left: 10px;
+}
+
+.parcelado {
+  color: #555;
+  margin-top: 5px;
+  font-size: 0,5em;
+}
+
+.frete {
+  margin-top: 15px;
+  font-size: 1.25em;
+}
+
+.cupom {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.BTN {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.BTN:hover {
+  background-color: #333;
+}
+
+.codigo {
+  background-color: #f0f0f0;
+  color: black;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 999px;
+}
+
+.mini-headset img {
+  width: 60px;
+  margin-top: 20px;
+}
+
+.carrinho, .favorito {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 2em;
+}
+
+.carrinho {
+  background-color: black;
+  color: white;
+  border-radius: 40px;
+}
+
+.favorito {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+}
+
+.descricao {
+  margin-top: 95px;
+  font-size: 0.95em;
+  border: solid #e4e3e3;
+  border-radius: 30px;
+  padding: 20px;
+  padding-right: 90px;
+  
+}
+
+.destaque-texto {
+  color: red;
+  font-weight: bold;
+}
+
+.cls {
+  max-width: 600px;
+  
+}
+
+.text-d {
+  margin-top: 70em;
+}
+
+.descri {
+  max-width: 900px;
 }
