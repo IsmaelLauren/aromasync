@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 html, body{
     margin: 0;
     padding: 0;
 }
-.body1{
+body{
     display: flex;
     flex-direction: column;
 }
 .logo{
-    width: 200px;
+    width: 180px;
     margin-left: 40px;
 }
 header{
     width: 100%;
-    height: 150px;
+    height: 120px;
     background-color: transparent;
     justify-content: center;
     display: flex;
@@ -44,7 +45,7 @@ header{
     margin-left: auto;
 }
 .suporte{
-    width: 90px;
+    width: 65px;
     margin-right: 40px;
 }
 .suporte a:hover{
@@ -54,7 +55,7 @@ header{
     filter: brightness(0.7);
 }
 .carrinho-compras{
-    width: 80px;
+    width: 60px;
     
 }
 
@@ -68,6 +69,7 @@ header{
     align-items: center;
     justify-content: center;
     height: 20vh;
+    margin-top: 150px;
 }
 .titulo-header h1 ,p {
     font-family: poppins;
@@ -90,14 +92,15 @@ header{
 
 .conteudo-header{
     width: 100%;
-    height: 70vh;
+    height: 140vh;
     background-color: transparent;
     justify-content: center;
     display: flex;
 }
 .imagemfone{
-    width: 700px;
-    height: 700px;
+  margin-top: 20vh;
+  width: 700px;
+  height: 700px;
 }
 .botao-header{
     width: 100%;
@@ -130,14 +133,7 @@ header{
     border: 2px solid #00D9FF;
     
 }
-.card-header{
-    width: 100%;
-    height: 100vh;
-    background-color: #00D9FF;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
+
 .card-header {
     display: flex;
     height: 100vh;
@@ -145,6 +141,7 @@ header{
     margin: 0;
     padding: 0;
     justify-content: center;
+    margin-top: 100px;
 }
 
 .card-header1,
@@ -188,17 +185,25 @@ header{
 .foto-card3 {
     background-image: url(../img/fotocard-header3.png);
 }
-.aromasyncimg{
-    width: 1300px;
+.AromaName{
+    font-size: 140px;
     position: absolute;
     margin:0 ;
     pad: 0;
-    margin-top: 20%;
-}
- /*header compras*/
+    margin-top: 50vh;
+    color: rgb(231, 231, 231);
+    font-family:abril fatface ;
+    flex: 1;
+    transition: flex 0.4s ease;
 
+}
+.AromaName:hover{
+  flex: 1.3;
+  pointer-events: visible;
+}
+/*header compras*/
 body {
-  font-family: sans-serif;
+  
   margin: 0;
   background: #fff;
   color: #333;
@@ -208,7 +213,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .logo-compras {
@@ -267,6 +271,7 @@ body {
   align-items: center;
   gap: 20px;
   padding-left: 5px;
+  
 }
 
 .thumb,
@@ -284,7 +289,7 @@ body {
 
 .thumb {
   height: 400px;
-  margin-top: 1em;
+  margin-top: 3em;
 }
 
 .cls2 {
@@ -296,7 +301,7 @@ body {
 .info {
   max-width: 800px;
   font-size: 18px;
-  margin-top: 1200px;
+  margin-top: 10px;
 }
 
 .compra {
