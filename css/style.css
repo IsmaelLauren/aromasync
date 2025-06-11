@@ -204,8 +204,7 @@ header{
   pointer-events: visible;
 }
 /*header compras*/
-body {
-  
+body {  
   margin: 0;
   background: #fff;
   color: #333;
@@ -219,11 +218,13 @@ body {
 
 .logo-compras {
   height: 60px;
+  padding: 10px;
 }
 
 .icons img {
   height: 30px;
   margin-left: 15px;
+  padding-right: 10px;
 }
 
 .hero {
@@ -262,9 +263,13 @@ body {
   align-items: center;
   padding: 30px;
   gap: 10px;
-  height: 700px;
-  max-height: 10;
- 
+  height: 600px;
+  max-height: 2;
+  width: 1400px;
+}
+
+.desconto {
+  font-size: 20px;
 }
 
 .galeria {
@@ -272,56 +277,44 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding-left: 5px;
+  
   
 }
 
 .thumb,
 .central {
-  width: 400px;
-  height: 100px;
+  width: 200px;
+  height: 90px;
   border: 3px solid #e4e3e3;
   border-radius: 10px;
   margin-top: 10px;
 }
 
 .central {
-  height: 350px;
+  height: 300px;
 }
 
 .thumb {
-  height: 400px;
+  height: 300px;
   margin-top: 3em;
 }
 
 .cls2 {
-  width: 800px;
-  height: 700px;
+  width: 500px;
+  height: 400px;
   object-fit: cover;
-}
-
-.info {
-  max-width: 800px;
-  font-size: 18px;
-  margin-top: 10px;
+  padding-right: 0px;
 }
 
 .compra {
-  height: 90px;
+  height: 40px;
 }
 
 .avaliacao span {
   font-size: 1.2em;
+  margin-top: 10PX;
 }
 
-.preco {
-  font-size: 1.5em;
-}
-
-.desconto {
-  text-decoration: line-through;
-  margin-left: 10px;
-}
 
 .off {
   color: green;
@@ -332,18 +325,6 @@ body {
   color: #555;
   margin-top: 5px;
   font-size: 0,5em;
-}
-
-.frete {
-  margin-top: 15px;
-  font-size: 1.25em;
-}
-
-.cupom {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 20px;
 }
 
 .BTN {
@@ -366,7 +347,7 @@ body {
   background-color: #f0f0f0;
   color: black;
   padding: 12px 20px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   border-radius: 999px;
 }
@@ -400,7 +381,6 @@ body {
 
 .descricao {
   margin-top: 95px;
-  font-size: 0.95em;
   border: solid #e4e3e3;
   border-radius: 30px;
   padding: 20px;
@@ -414,14 +394,19 @@ body {
 }
 
 .cls {
-  max-width: 600px;
+  max-width: 400px;
   
 }
-
-.text-d {
-  margin-top: 70em;
-}
-
 .descri {
   max-width: 900px;
+}
+
+.frete {
+font-size: 900px;
+}
+
+.info {
+  height: 1400px;
+  width: 900px;
+  padding-left: 70px;
 }
