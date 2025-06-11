@@ -204,209 +204,374 @@ header{
   pointer-events: visible;
 }
 /*header compras*/
-body {  
-  margin: 0;
-  background: #fff;
-  color: #333;
+.logo-compras{
+    width: 200px;
+    margin-left: 40px;
 }
-
-.header-compras {
+.video-vendas{
+  width: 100%;
+  height: 110vh;
+  background-image: url(../img/Apresentacao.png);
+  background-size: cover;
+  background-position: center;
+  
+}
+.conteudo-compras1{
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(255, 255, 255);
   display: flex;
-  justify-content: space-between;
+  
+}
+.ComprasLeft{
+  width: 60%;
+  height: 100%;
+  
+  display: flex;
+  
+
+}
+.fonesuperior{
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  border: 0.5px solid #9E9E9E;
+  border-radius: 20px;
+  display: flex;
   align-items: center;
+  justify-content: center;
+}
+.fonesuperior img{
+  width: 180px;
+  margin-left: -30px;
+}
+.foneinferior{
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  border: 0.5px solid #9E9E9E;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foneinferior img{
+  width: 150px;
+  
+}
+.fonesleft{
+  width: 35%;
+  height: 100%;
+  
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.fonesright{
+  background-color: transparent;
+  width: 65%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fonesright img{
+  width: 700px;
 }
 
-.logo-compras {
-  height: 60px;
-  padding: 10px;
+
+
+
+.patamar1{
+  width: 100%;
+  height: 20%;
+  
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.UmaEstrela{
+  width: 40px;
+  margin-left: 10px;
+}
+.MeiaEstrela{
+  width: 40px;
+  margin-right: 50px;
+  margin-left: 10px;
+}
+.patamar1 p{
+  font-size: 35px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  font-family: inter;
+  margin-top: 10px;
+}
+.patamar1 span p{
+  margin-right: 20px;
+  font-family: inter;
+}
+.patamar2{
+  width: 100%;
+  height: 15%;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.patamar2 p{
+  font-size: 35px;
+  font-family: inter;
+  font-weight: 400
+}
+.patamar2 span p{
+  font-size: 35px;
+  text-decoration: line-through;
+  color: black;
+  font-family: inter;
+  opacity: 50%;
+  margin-left: 20px;
+  font-weight: 400
+}
+.desconto{
+  color: #00AC06;
+  margin-left: 20px;
+  font-family: inter ;
+  font-weight: 400
+}
+.patamar3{
+  width: 100%;
+  height: 10%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.patamar3 p{
+  font-family: inter;
+  font-size: 30px;
+  font-weight: 400;
+  margin-right: 15px;
+}
+.patamar3 span p{
+  color: #00AC06;
+}
+.patamar4{
+  width: 100%;
+  height: 15%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.patamar1 , .patamar2, .patamar3, .patamar4, .patamar5 , .patamar6, .patamar7 {
+  padding-left: 50px;
+}
+  
+
+.patamar4 p{
+  font-size: 25px;
+  font-family: inter;
+  margin-right: 30px;
+  font-weight: 400;
+}
+.patamar4 span p{
+  margin-left: 40px;
+}
+.patamar4 img{
+  width: 100px;
+}
+.seta{
+  opacity: 50%;
+  margin-right: -100px;
+}
+.patamar5{
+  width: 100%;
+  height: 10%;
+  
+  display: flex;
+  align-items: center;
+  
+
+}
+.patamar5 p{
+  font-size: 30px;
+  font-family: inter;
+  margin-right: 30px;
+  font-weight: 400;
+  margin-right: 50px;
+}
+.risco{
+  text-decoration: line-through;
+  color: black;
+  font-family: inter;
+  opacity: 50%;
+  font-weight: 400;
+  margin-right: 0px;
 }
 
-.icons img {
-  height: 30px;
-  margin-left: 15px;
-  padding-right: 10px;
+.espaco{
+  margin-left: 50px;
+  
 }
+.patamar6{
+  width: 100%;
+  height: 15%;
+  
+  display: flex;
+  align-items: center;
 
-.hero {
-  position: relative;
+}
+.patamar6 p{
+  width: 100%;;
+  font-size: 25px;
+  font-family: inter;
+  margin-left: 50px;
+  font-weight: 400;
+}
+.patamar6 span{
+  font-weight: 700;
+
+}
+.patamar7{
+  
+  width: 100%;
+  height: 20%;
+}
+.cupom{
+  width: 80%;
+  background-color: rgb(0, 0, 0);
+  height: 80%;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  justify-content: center;
+  margin-left: 40px;
+}
+.cupom a{
+  font-size: 20px;
+  font-family: inter;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+.cupom input{
+  margin-left: 50px;
+  width: 45%;
+  height: 60%;
+  border-radius: 50px;
+  
   text-align: center;
 }
-
-.background {
+.conteudo-compras2{
   width: 100%;
-  height: auto;
-}
-
-.texto-hero {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -30%);
-  color: white;
-  font-size: 2.5em;
-  font-weight: bold;
-  text-shadow: 2px 2px 5px black;
-}
-
-.troncao {
-  background: #dca96c;
-  padding: 30px;
-  margin-top: 5px;
-  display: inline-block;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-  font-size: 1.2em;
-}
-
-.produto {
+  height: 60vh;
+  margin-top: 100px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px;
-  gap: 10px;
-  height: 600px;
-  max-height: 2;
-  width: 1400px;
 }
-
-.desconto {
-  font-size: 20px;
+.ComprasLeft2{
+  width: 60%;
+  height: 100%;
+  
 }
+.ComprasRight2{
+  width: 40%;
+  height: 100%;
+  
+}
+.descricao-produto{
 
-.galeria {
+  background-color: #EDEDED ;
+  width: 95%;
+  height: 95%;
+  margin-left: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  border-radius: 20px;
+}
+.descricao-produto p{
+  font-size: 25px;
+  padding: 30px;
+  
+}
+.texto1{
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.texto-degrade1{
   
   
+  background: linear-gradient(90deg,  red, orange ,deeppink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  background-clip: text; 
+  color: transparent;   
 }
-
-.thumb,
-.central {
-  width: 200px;
-  height: 90px;
-  border: 3px solid #e4e3e3;
-  border-radius: 10px;
-  margin-top: 10px;
-}
-
-.central {
-  height: 300px;
-}
-
-.thumb {
-  height: 300px;
-  margin-top: 3em;
-}
-
-.cls2 {
-  width: 500px;
-  height: 400px;
-  object-fit: cover;
-  padding-right: 0px;
-}
-
-.compra {
-  height: 40px;
-}
-
-.avaliacao span {
-  font-size: 1.2em;
-  margin-top: 10PX;
-}
-
-
-.off {
-  color: green;
-  margin-left: 10px;
-}
-
-.parcelado {
-  color: #555;
-  margin-top: 5px;
-  font-size: 0,5em;
-}
-
-.BTN {
-  background-color: black;
-  color: white;
-  border: none;
-  padding: 12px 25px;
-  font-size: 16px;
-  border-radius: 999px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: background 0.3s;
-}
-
-.BTN:hover {
-  background-color: #333;
-}
-
-.codigo {
-  background-color: #f0f0f0;
-  color: black;
-  padding: 12px 20px;
-  font-size: 12px;
-  font-weight: bold;
-  border-radius: 999px;
-}
-
-.mini-headset img {
-  width: 60px;
-  margin-top: 20px;
-}
-
-.carrinho, .favorito {
-  display: block;
+.camada1{
+  
   width: 100%;
-  margin-top: 15px;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-  font-size: 2em;
+  height: 40%;
+  
 }
-
-.carrinho {
+.fonefinal{
+  width: 200px;
+  height:200px;
+  display: flex;
+  align-items: center;
+  border: 0.5px solid #9E9E9E;
+  justify-content: center;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+.fonefinal img {
+  width: 130px;
+  margin-right: 10px;
+  
+}
+.camada2{
+  width: 100%;
+  height: 60%;
+  
+  display: flex;
+  flex-direction: column;
+}
+.upper{
+  width: 60%;
   background-color: black;
   color: white;
-  border-radius: 40px;
+  height: 80px;
+  border-radius: 50px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-family: inter;
+  border: 1px solid black;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-top: 70px;
 }
-
-.favorito {
-  background-color: white;
-  border: 1px solid #ccc;
-  border-radius: 40px;
-}
-
-.descricao {
-  margin-top: 95px;
-  border: solid #e4e3e3;
-  border-radius: 30px;
-  padding: 20px;
-  padding-right: 90px;
-  
-}
-
-.destaque-texto {
-  color: red;
-  font-weight: bold;
-}
-
-.cls {
-  max-width: 400px;
-  
-}
-.descri {
-  max-width: 900px;
-}
-
-.frete {
-font-size: 900px;
-}
-
-.info {
-  height: 1400px;
-  width: 900px;
-  padding-left: 70px;
+.lower{
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  height: 80px;
+  border-radius: 50px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-family: inter;
+  border: 1px solid black;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-top: 30px;
 }
